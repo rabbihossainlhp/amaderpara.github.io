@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.main .profile{
+    margin-left: 40px;
+}
+.main .profile :nth-child(9){
+    position: relative;
+    top: 30px;
+}
+
+
+
+/*This all are written for controling the 
+specific image and buttons: */
+
+
+.main .profile .abdullah img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .pial  img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .eacha img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .aney  img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .nodi  img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .ratul img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .rial  img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .riya  img{width: 130px;border-radius: 35px;position: relative;}
+.main .profile .anik  img{width: 130px;border-radius: 35px;position: relative; }
+
+
+/*This line also using for spaching from top*/
+.main .profile .anik{
+   top: 85px;
+}
+
+.main .abdullah,.aney,.anik,.eacha
+,.nodi,.ratul,.pial,.nodi,.riya,.rial{
+    display: inline-block;
+    margin: 8px;
+    top: 85px;
+    position: relative;   
+}
+
+/*This code will decoration the link of button*/
+
+.main .abdullah,.aney,.anik,.eacha
+,.nodi,.ratul,.pial,.nodi,.riya, button a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 5px;
+}
+
+/*This line has written for changing button*/
+
+.main .abdullah button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .anik button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .aney button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .rial button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .ratul button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .riya button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .nodi button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .eacha button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.main .pial button {
+    background-color: rgb(56, 91, 3);
+    text-decoration: none;
+    padding: 2px 3px;
+    width: 140px;
+    border-radius: 15px;
+}
+/*This line has written for changing button*//*This line has written for changing button*//*This line has written for changing button*/
+
+.main .header {
+    width: 100%;
+    height: 200px;
+    background-color:transparent;
+}
+
+.main .header h2 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    left: 16%;
+    top: 20px;
+    color: red;
+}
+
+.main .header p{
+    font-size: 25px;
+    display: inline-block;
+    top: 15%;
+    left: 16%;
+    position: relative;
+    text-align: center;
+    color: blue;
+    
+}
+
+.main .header .logo {
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 60px;
+    border: 3px solid red;
+    border-radius: 30px;
+    position: relative;
+    bottom: 85px;
+    left: 20px;
+    box-shadow: 2px 2px 4px blue,
+    -1px -1px 4px rgb(16, 16, 17);
+}
+
+.main .header .logo h1{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 10px;
+
+}
+
+
+.main .footer {
+    width:100%;
+    height: 150px;
+    background-color: gray;
+    position: relative;
+    margin-top: 180px;
+}
+
+.main .footer  h3 {
+    text-align: center;
+    top: 60%;
+    position: relative;
+    background-color: tomato;
+    padding: 5px 0;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .footer h2{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.main .footer p{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*Now we will try to make this responsive for everyone*/
+
+
+/*for another mobile*/
+
+
+@media screen and (max-width: 720px){
+
+    .main .header h2 {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        font-size: 35px;
+        left: 10%;
+        top: 70px;
+        color: red;
+    }
+    
+    .main .header p{
+        font-size: 20px;
+        display: inline-block;
+        top: 35%;
+        left: 0%;
+        position: relative;
+        text-align: center;
+        color: blue;
+
+    }
+
+    .main .header .logo {
+        background-color: cornflowerblue;
+        width: 53px;
+        height: 53px;
+        border: 3px solid red;
+        border-radius: 30px;
+        position: relative;
+        bottom: 40%;
+        left: 40%;
+        box-shadow: 2px 2px 4px blue,
+        -1px -1px 4px rgb(16, 16, 17);
+    }
+    
+    .main .header .logo h1{
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        top: 10px;
+        left: 3px;
+        font-size: 24px;
+    }
+
+    .main .footer h3{
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .main .header .logo {
+        bottom: 47%;    
+    }
+}
+
+@media screen and (max-width: 630px){
+    .main .header h2{
+        left: 5%;
+        top: 73px;
+    }
+    .main .header p{
+        top: 37%;
+        font-size: 18px;
+    }
+    .main .profile{
+        margin-left: 18%;
+    }
+}
+
+
+@media screen and (max-width: 596px){
+    .main .header .logo {
+        bottom: 30%;    
+    }
+    .main .header h2{
+        top: 77px;
+        left: 10%;
+        font-size: 30px;
+    }
+    .main .header p{
+        font-size: 16px;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .main .header .logo {
+        bottom: 17%;    
+    }
+    .main .header h2{
+        top:  100px;
+        font-size: 28px;
+        left: 5%;
+
+    }
+    .main .header p{
+        top: 50%;
+        font-size: 14px;
+        left: 3%;
+    }
+    .main .header .profile{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:500px){
+        .main .header{
+            top: 3.5%;
+            position: relative
+        }
+        .main .header h2{
+            font-size: 25px;
+            left: 9%;
+        }
+        .main .header p{
+            font-size: 12px;
+            left: 9%;
+        }
+        .main .header .logo {
+           
+            width: 144px;
+            left: 30%;
+            bottom: 11%;
+        }
+        .main .header .logo h1{
+            left: 26%;
+            font-size: 35px;
+        }
+        
+}
+
+@media screen and (max-width:360px){
+    .main .header .logo{
+        bottom: 32%;
+        left: 25%;
+        position: relative;
+    }
+    .main .header h2{
+        font-size: 23px;
+        left: 0;
+    }
+    .main .header p{
+        font-size: 11px;
+        left: 0;
+    }
+    .main .header{
+        width: 85%;
+        left: 9%;
+        top: 0;
+    }
+    .main .profile{
+        left: 8%;
+        top: 1%;
+        position: relative;
+    }
+}
